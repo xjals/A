@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/03/05__16:15:44",
+	"date":"2021/03/06__00:20:33",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -145,6 +145,11 @@
 			"type":"cron",
 			"time":"10 0 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_kd.js"}},
+		{
+			"name":"京东直播",
+			"type":"cron",
+			"time":"10-20/5 12 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live.js"}},
 		{
 			"name":"京东摇钱树",
 			"type":"cron",
