@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/03/13__16:15:10",
+	"date":"2021/03/14__00:20:35",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -138,7 +138,7 @@
 		{
 			"name":"京小兑",
 			"type":"cron",
-			"time":"30 9 * * *",
+			"time":"35 8,16,20 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxd.js"}},
 		{
 			"name":"京喜农场",
