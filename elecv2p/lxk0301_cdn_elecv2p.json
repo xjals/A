@@ -2,11 +2,11 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/03/14__08:34:09",
+	"date":"2021/03/14__16:15:25",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
-			"name":"京豆变动通知",
+			"name":"京东资产变动通知",
 			"type":"cron",
 			"time":"2 9 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js"}},
