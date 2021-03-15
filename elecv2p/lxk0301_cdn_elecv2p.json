@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/03/15__08:32:59",
+	"date":"2021/03/15__16:15:37",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -250,6 +250,11 @@
 			"type":"cron",
 			"time":"55 23 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js"}},
+		{
+			"name":"手机尚学季",
+			"type":"cron",
+			"time":"0 0 0 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_xtg.js"}},
 		{
 			"name":"京喜签到",
 			"type":"cron",
