@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/03/19__08:33:26",
+	"date":"2021/03/19__16:16:50",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -131,11 +131,6 @@
 			"time":"15 10 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js"}},
 		{
-			"name":"宠汪汪偷好友积分与狗粮",
-			"type":"cron",
-			"time":"10 0-21/3 * * *",
-			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_steal.js"}},
-		{
 			"name":"京小兑",
 			"type":"cron",
 			"time":"35 8,16,20 * * *",
@@ -160,6 +155,11 @@
 			"type":"cron",
 			"time":"30,31 20-23/1 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js"}},
+		{
+			"name":"5G超级盲盒",
+			"type":"cron",
+			"time":"0 0,1-23/3 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_mohe.js"}},
 		{
 			"name":"京东摇钱树",
 			"type":"cron",
