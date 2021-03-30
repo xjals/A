@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/03/30__16:20:19",
+	"date":"2021/03/31__00:30:07",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -48,12 +48,12 @@
 		{
 			"name":"摇京豆",
 			"type":"cron",
-			"time":"5 0 * * *",
+			"time":"5 0,23 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_club_lottery.js"}},
 		{
 			"name":"crazyJoy任务",
 			"type":"cron",
-			"time":"10 7 * * *",
+			"time":"10 9 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_crazy_joy.js"}},
 		{
 			"name":"监控crazyJoy分红",
@@ -203,7 +203,7 @@
 		{
 			"name":"京东全民开红包",
 			"type":"cron",
-			"time":"1 1 * * *",
+			"time":"1 1,2,23 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_redPacket.js"}},
 		{
 			"name":"闪购盲盒",
@@ -225,6 +225,11 @@
 			"type":"cron",
 			"time":"8 0-23/3 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed.js"}},
+		{
+			"name":"京东极速版红包",
+			"type":"cron",
+			"time":"0 0 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed_redpocke.js"}},
 		{
 			"name":"京东极速版",
 			"type":"cron",
