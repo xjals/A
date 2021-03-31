@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/03/31__16:20:07",
+	"date":"2021/04/01__00:30:11",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -153,7 +153,7 @@
 		{
 			"name":"超级直播间红包雨",
 			"type":"cron",
-			"time":"30,31 20-23/1 * * *",
+			"time":"0,30,31 20-23/1 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js"}},
 		{
 			"name":"5G超级盲盒",
