@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/04/01__16:20:39",
+	"date":"2021/04/02__00:31:01",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -170,6 +170,11 @@
 			"type":"cron",
 			"time":"10 0,20 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_necklace.js"}},
+		{
+			"name":"女装盲盒",
+			"type":"cron",
+			"time":"35 1,23 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js"}},
 		{
 			"name":"东东萌宠",
 			"type":"cron",
