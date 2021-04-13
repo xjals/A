@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/04/13__08:54:30",
+	"date":"2021/04/13__16:20:35",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -125,6 +125,11 @@
 			"type":"cron",
 			"time":"15 10 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js"}},
+		{
+			"name":"宠汪汪偷好友积分与狗粮",
+			"type":"cron",
+			"time":"10 0-21/3 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_steal.js"}},
 		{
 			"name":"京小兑",
 			"type":"cron",
