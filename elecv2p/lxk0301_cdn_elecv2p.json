@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/04/20__08:51:41",
+	"date":"2021/04/20__16:19:50",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -243,7 +243,7 @@
 		{
 			"name":"赚京豆",
 			"type":"cron",
-			"time":"10 7 * * *",
+			"time":"10 0,7,23 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_syj.js"}},
 		{
 			"name":"取关京东店铺商品",
