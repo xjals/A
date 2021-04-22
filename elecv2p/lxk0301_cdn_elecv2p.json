@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/04/22__08:52:24",
+	"date":"2021/04/22__16:20:15",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -90,6 +90,11 @@
 			"type":"cron",
 			"time":"20 13 * * 6",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_get_share_code.js"}},
+		{
+			"name":"东东健康社区",
+			"type":"cron",
+			"time":"10 0-23/4 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js"}},
 		{
 			"name":"东东工厂",
 			"type":"cron",
