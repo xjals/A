@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/04/24__08:52:42",
+	"date":"2021/04/24__16:18:56",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -255,6 +255,11 @@
 			"type":"cron",
 			"time":"10 0,7,23 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_syj.js"}},
+		{
+			"name":"球队赢好礼",
+			"type":"cron",
+			"time":"10 1 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_tcl.js"}},
 		{
 			"name":"取关京东店铺商品",
 			"type":"cron",
