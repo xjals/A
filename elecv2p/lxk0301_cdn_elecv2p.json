@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/04/26__16:20:33",
+	"date":"2021/04/27__00:30:58",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -111,6 +111,11 @@
 			"time":"10 0 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jdzz.js"}},
 		{
+			"name":"领金贴",
+			"type":"cron",
+			"time":"10 0 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jin_tie.js"}},
+		{
 			"name":"京东宠汪汪",
 			"type":"cron",
 			"time":"15 0-23/2 * * *",
@@ -198,7 +203,7 @@
 		{
 			"name":"京东金融养猪猪",
 			"type":"cron",
-			"time":"12 * * * *",
+			"time":"12 0-23/6 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_pigPet.js"}},
 		{
 			"name":"京东种豆得豆",
