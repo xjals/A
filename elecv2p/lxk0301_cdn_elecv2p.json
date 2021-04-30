@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/04/30__08:44:19",
+	"date":"2021/04/30__16:19:02",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -93,7 +93,7 @@
 		{
 			"name":"东东健康社区",
 			"type":"cron",
-			"time":"13 1,22 * * *",
+			"time":"13 1,6,22 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js"}},
 		{
 			"name":"东东健康社区收集能量",
