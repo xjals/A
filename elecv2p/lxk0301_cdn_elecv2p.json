@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/05/01__16:17:13",
+	"date":"2021/05/02__00:25:28",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -166,11 +166,6 @@
 			"time":"4 10 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_market_lottery.js"}},
 		{
-			"name":"5G超级盲盒",
-			"type":"cron",
-			"time":"0 0,1-23/3 * * *",
-			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_mohe.js"}},
-		{
 			"name":"京东摇钱树",
 			"type":"cron",
 			"time":"3 0-23/2 * * *",
@@ -185,11 +180,6 @@
 			"type":"cron",
 			"time":"10 0,20 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_necklace.js"}},
-		{
-			"name":"女装盲盒",
-			"type":"cron",
-			"time":"35 1,23 * * *",
-			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js"}},
 		{
 			"name":"东东萌宠",
 			"type":"cron",
