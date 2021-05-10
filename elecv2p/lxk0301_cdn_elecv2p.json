@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/05/10__08:40:10",
+	"date":"2021/05/10__16:15:55",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -163,7 +163,7 @@
 		{
 			"name":"超级直播间红包雨",
 			"type":"cron",
-			"time":"0,30,31 20-23/1 * * *",
+			"time":"0,30 0-23/1 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js"}},
 		{
 			"name":"幸运大转盘",
