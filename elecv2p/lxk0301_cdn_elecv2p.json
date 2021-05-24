@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/05/24__08:51:54",
+	"date":"2021/05/24__16:17:50",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -36,6 +36,11 @@
 			"time":"0 0 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js"}},
 		{
+			"name":"京东手机狂欢城",
+			"type":"cron",
+			"time":"0 0-18/6 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js"}},
+		{
 			"name":"签到领现金",
 			"type":"cron",
 			"time":"2 0-23/4 * * *",
@@ -45,6 +50,11 @@
 			"type":"cron",
 			"time":"5 0,8,13,19 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_cfd.js"}},
+		{
+			"name":"城城领现金",
+			"type":"cron",
+			"time":"0 0-23/1 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js"}},
 		{
 			"name":"摇京豆",
 			"type":"cron",
