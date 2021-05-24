@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/05/24__16:17:50",
+	"date":"2021/05/25__00:36:07",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -253,7 +253,7 @@
 		{
 			"name":"京东极速版红包",
 			"type":"cron",
-			"time":"0 0 * * *",
+			"time":"0 0,22 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed_redpocke.js"}},
 		{
 			"name":"京东极速版",
