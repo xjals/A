@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/05/25__08:51:18",
+	"date":"2021/05/25__16:22:48",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -275,6 +275,11 @@
 			"type":"cron",
 			"time":"55 23 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js"}},
+		{
+			"name":"618动物联萌",
+			"type":"cron",
+			"time":"13 0-23/2 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_zoo.js"}},
 		{
 			"name":"京喜签到",
 			"type":"cron",
