@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/05/31__09:49:27",
+	"date":"2021/05/31__17:00:26",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -210,6 +210,11 @@
 			"type":"cron",
 			"time":"35 1,23 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js"}},
+		{
+			"name":"沸腾之夜",
+			"type":"cron",
+			"time":"0 15-19/1 * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_party_night.js"}},
 		{
 			"name":"东东萌宠",
 			"type":"cron",
