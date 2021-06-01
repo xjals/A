@@ -2,7 +2,7 @@
 	"name":"JDTask",
 	"desc":"elecv2p订阅",
 	"author":"lmh77",
-	"date":"2021/06/01__10:08:50",
+	"date":"2021/06/01__17:17:09",
 	"surl":"https://raw.githubusercontent.com/lmh77/A/main/elecv2p/lxk0301_cdn_elecv2p.json",
 	"list":[
 		{
@@ -211,11 +211,6 @@
 			"time":"35 1,23 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js"}},
 		{
-			"name":"沸腾之夜",
-			"type":"cron",
-			"time":"0 15-19/1 * * *",
-			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_party_night.js"}},
-		{
 			"name":"东东萌宠",
 			"type":"cron",
 			"time":"15 6-18/6 * * *",
@@ -298,8 +293,13 @@
 		{
 			"name":"618动物联萌",
 			"type":"cron",
-			"time":"13 * * * *",
+			"time":"33 0,6-23/2 * * *",
 			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_zoo.js"}},
+		{
+			"name":"618动物联萌收集金币",
+			"type":"cron",
+			"time":"0-59/30 * * * *",
+			"job":{"type":"runjs","target":"https://jdsharedresourcescdn.azureedge.net/jdresource/jd_zooCollect.js"}},
 		{
 			"name":"京喜签到",
 			"type":"cron",
